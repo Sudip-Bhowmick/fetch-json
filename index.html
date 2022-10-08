@@ -16,7 +16,7 @@
 	<script>
 		$(document).ready(function () {
 			// FETCHING DATA FROM JSON FILE
-			$.getJSON("/data/data.json", function (data) {
+			$.getJSON("data/data.json", function (data) {
 				var insights = data;
 				insights = data.sort((a, b) => b.id - a.id).filter(function (obj) {
 					// return the filtered value
