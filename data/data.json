@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Dummy data one",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "link": "/insights/blogs/common-bookkeeping-mistakes-made-by-small-businesses/",
+        "img": "https://sudip-bhowmick.github.io/images/img/02.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Dummy data two",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "link": "https://github.com/Sudip-Bhowmick",
+        "img": "https://sudip-bhowmick.github.io/images/img/02.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Dummy data three",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "link": "https://github.com/Sudip-Bhowmick",
+        "img": "https://sudip-bhowmick.github.io/images/img/02.jpg"
+    }
+]
