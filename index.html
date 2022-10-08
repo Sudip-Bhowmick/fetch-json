@@ -1,5 +1,26 @@
 <html>
 <head>
+	<style>
+		*, body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#data {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+}
+.img-responsive{
+    max-width: 100%;
+    margin: auto;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
   <body>
@@ -30,7 +51,6 @@
 					insights += '<div class="row">';
 					insights += '<div class="col-md-6 text-block">';
 					insights += '<p class="title">' + value.title + "</p>";
-					insights += '<p class="date">' + value.date + "</p>";
 					insights += '<p class="excerpt">' + value.excerpt + "</p>";
 					insights += '<a href="' + value.link + '" class="theme-btn">Read more</a>';
 					insights += "</div>";
